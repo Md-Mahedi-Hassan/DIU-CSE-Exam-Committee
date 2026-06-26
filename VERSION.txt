@@ -1,0 +1,16 @@
+Invigilator Duty Finder - Version 14
+
+Includes:
+- Attendance Sheet Generator page
+- automatic seat-plan PDF lookup by date and slot
+- room-wise student counting from seat-plan PDFs
+- invigilator assignment using the 30/55/75/>75 rules
+- extra roster invigilators assigned to Room 204 at the end of the sheet
+- teacher initials removed from the Teacher Name column
+- final PDF page table ends after the last row instead of filling blank space
+- merged Room No. cells for rooms with multiple invigilators
+- committee photo lookup supports no-extension, jpeg, jpg, png, gif, gpeg, webp, and jfif variants in root and common image folders
+- attendance sheet downloads as both PDF and editable DOCX
+- editable invigilator rows before attendance PDF or DOCX download
+- one-page-per-sheet attendance PDF rendering
+- Version 14 browser cache busting
