@@ -55,7 +55,7 @@ function imageCandidates(initial) {
 }
 
 function imageUrl(path) {
-  return `./${path.split("/").map((part) => encodeURIComponent(part)).join("/")}?v=14`;
+  return `./${path.split("/").map((part) => encodeURIComponent(part)).join("/")}?v=19`;
 }
 
 function findHeaderColumns(lines, pageWidth) {

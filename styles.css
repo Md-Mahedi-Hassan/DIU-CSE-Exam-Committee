@@ -296,6 +296,48 @@ footer { width: min(1120px, calc(100% - 36px)); margin: 0 auto; padding: 0 0 30p
 [data-theme="dark"] .guideline-item p,
 [data-theme="dark"] .important-note p { color: #c5d0c8; }
 [data-theme="dark"] .main-nav a:hover { background: #243129; color: var(--ink); }
+[data-theme="dark"] .generator-panel .download-button,
+[data-theme="dark"] .assignment-panel .download-button,
+[data-theme="dark"] .assignment-panel .secondary-action,
+[data-theme="dark"] .file-hint code {
+  color: #ffffff;
+}
+[data-theme="dark"] .file-hint code {
+  background: #121814;
+}
+[data-theme="dark"] .attendance-summary > div {
+  border-color: var(--line);
+  background: #17201b;
+}
+[data-theme="dark"] .attendance-summary span,
+[data-theme="dark"] .attendance-summary strong {
+  color: #ffffff;
+}
+[data-theme="dark"] .assignment-room-head {
+  border-color: var(--line);
+  background: #17201b;
+}
+[data-theme="dark"] .assignment-room-head strong,
+[data-theme="dark"] .assignment-room-head span {
+  color: #ffffff;
+}
+[data-theme="dark"] .assignment-room-head .add-invigilator {
+  border-color: #607168;
+  background: #243129;
+  color: #ffffff;
+}
+[data-theme="dark"] .assignment-room-head .add-invigilator:hover {
+  background: #304138;
+  color: #ffffff;
+}
+[data-theme="dark"] .assignment-panel .secondary-action {
+  background: #243129;
+}
+[data-theme="dark"] .warning-list {
+  border-color: #8f6d2d;
+  background: #3d321c;
+  color: #ffffff;
+}
 
 .content-main { padding-top: 52px; }
 .page-heading { max-width: 820px; margin-bottom: 30px; }

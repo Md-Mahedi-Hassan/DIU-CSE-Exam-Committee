@@ -83,10 +83,10 @@ MHS.jpeg
 If an image is missing, the website displays the member's initial instead.
 
 When installing this version, replace all HTML, CSS, and JavaScript files in
-the repository. The pages use Version 14 cache-busting query parameters so the
+the repository. The pages use Version 19 cache-busting query parameters so the
 new layout is loaded instead of a previously cached copy.
 
-Version 14 includes the Attendance Sheet Generator page. It reads the duty roster,
+Version 19 includes the Attendance Sheet Generator page. It reads the duty roster,
 loads the matching seat-plan PDF, counts students in each room, assigns
 invigilators using the 30/55/75/>75 rule, allows manual editing, and downloads
 a printable PDF or editable DOCX styled like the sample attendance sheet. If
@@ -103,5 +103,8 @@ site tries no-extension files plus `.jpeg`, `.jpg`, `.png`, `.gif`, `.gpeg`,
 `.webp`, and `.jfif` with uppercase and lowercase variants before showing the
 initial fallback. It also checks common folders such as `images/`, `img/`,
 `photos/`, `assets/`, and `assets/images/`.
+
+In dark mode, attendance-page controls, summary cards, room headers, inline
+chips, and warning panels use dark surfaces with white text for clear contrast.
 
 No server, database, PHP, XAMPP, or build command is required.

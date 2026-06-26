@@ -1,4 +1,4 @@
-Invigilator Duty Finder - Version 14
+Invigilator Duty Finder - Version 19
 
 Includes:
 - Attendance Sheet Generator page
@@ -12,5 +12,6 @@ Includes:
 - committee photo lookup supports no-extension, jpeg, jpg, png, gif, gpeg, webp, and jfif variants in root and common image folders
 - attendance sheet downloads as both PDF and editable DOCX
 - editable invigilator rows before attendance PDF or DOCX download
+- dark-mode attendance controls, summary cards, room headers, room numbers, inline chips, and warning panels use white text on dark surfaces
 - one-page-per-sheet attendance PDF rendering
-- Version 14 browser cache busting
+- Version 19 browser cache busting
